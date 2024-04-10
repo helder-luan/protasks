@@ -22,17 +22,22 @@ Gerenciador de tarefas para organizar suas atividades diárias.
 1. Clone o repositório
 
 ```bash
-git clone
+git clone https://github.com/helder-luan/protasks.git
+```
+
+2. Acesse a pasta do projeto
+
+```bash
 cd easytasks
 ```
 
-2. Instale as dependências
+3. Instale as dependências
 
 ```bash
 npm install
 ```
 
-3. Rode o projeto
+4. Rode o projeto
 
 ```bash
 npm run dev
