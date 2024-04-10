@@ -4,7 +4,6 @@ import { TemaContextProvider } from './contexts/TemaContext';
 import { Main } from './components/Main';
 
 function App() {
-  console.log('App');
   return (
     <>
       <TemaContextProvider>

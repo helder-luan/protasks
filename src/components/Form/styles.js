@@ -43,7 +43,7 @@ export const FormTarefa = styled.form`
     font-weight: bold;
     width: 10rem;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.2s;
   }
 
   button:hover {

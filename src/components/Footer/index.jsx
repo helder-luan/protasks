@@ -1,7 +1,6 @@
 import './styles.css';
 
 export function Footer() {
-  console.log('Footer');
   const anoAtual = new Date().getFullYear();
 
   return (

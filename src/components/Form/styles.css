@@ -42,7 +42,7 @@
   font-weight: bold;
   width: 10rem;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 .form button:hover {

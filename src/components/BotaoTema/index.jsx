@@ -6,6 +6,7 @@ import './styles.css';
 
 export function BotaoTema() {
   const { tema, toggleTema } = useContext(TemaContext);
+
   return (
     <button className="botao-tema" onClick={toggleTema}>
       {tema.name === 'light' && <MdOutlineDarkMode size={32} />}

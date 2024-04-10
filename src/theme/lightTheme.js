@@ -2,7 +2,7 @@ import { Theme } from './theme';
 
 export const LightTheme = {
   name: 'light',
-  colors: Theme.colors,
+  ...Theme,
   contrast: Theme.colors.darkGray,
   backgroundColor: Theme.colors.white,
   header: {
