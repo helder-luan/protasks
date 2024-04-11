@@ -1,6 +1,7 @@
 import { Form } from '../Form';
 import { Tarefas } from '../Tarefas';
 import { useLocalStorage } from '../../hooks/useLocalStorage';
+import * as S from './styles.js';
 
 export function Main() {
   const [tarefas, adicionarTarefa, _] = useLocalStorage('tarefas', []);
@@ -26,13 +27,13 @@ export function Main() {
   }
 
   return (
-    <main>
+    <S.Main>
       <Form tarefas={tarefas} adicionarTarefa={adicionarTarefa} />
       <Tarefas
         tarefas={tarefas}
         mudarStatusTarefa={mudarStatusTarefa}
         removerTarefa={removerTarefa}
       />
-    </main>
+    </S.Main>
   );
 }

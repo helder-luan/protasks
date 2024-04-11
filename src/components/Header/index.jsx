@@ -1,9 +1,9 @@
 import { BotaoTema } from '../BotaoTema';
-import './styles.css';
+import * as S from './styles.js';
 
 export function Header() {
   return (
-    <header className="cabecalho">
+    <S.Cabecalho className="cabecalho">
       <img
         className="logo"
         src="/images/logo.jpg"
@@ -16,6 +16,6 @@ export function Header() {
         </h4>
       </div>
       <BotaoTema />
-    </header>
+    </S.Cabecalho>
   );
 }

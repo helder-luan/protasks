@@ -1,9 +1,9 @@
 import { IoTrashSharp } from 'react-icons/io5';
-import './styles.css';
+import * as S from './styles.js';
 
 export function ItemTarefa({ tarefa, mudarStatusTarefa, removerTarefa }) {
   return (
-    <li className={`tarefa ${tarefa.concluida && 'concluida'}`}>
+    <S.ItemTarefa className={`tarefa ${tarefa.concluida && 'concluida'}`}>
       <div>
         <input
           type="checkbox"
@@ -16,6 +16,6 @@ export function ItemTarefa({ tarefa, mudarStatusTarefa, removerTarefa }) {
       <button onClick={() => removerTarefa(tarefa.id)}>
         <IoTrashSharp />
       </button>
-    </li>
+    </S.ItemTarefa>
   );
 }

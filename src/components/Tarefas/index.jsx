@@ -1,9 +1,9 @@
 import { ItemTarefa } from './components/ItemTarefa';
-import './styles.css';
+import * as S from './styles.js';
 
 export function Tarefas({ tarefas, mudarStatusTarefa, removerTarefa }) {
   return (
-    <section>
+    <S.TarefasContainer>
       <ul className="lista-tarefas">
         {tarefas.length === 0 && <p>Nenhuma tarefa cadastrada</p>}
 
@@ -19,6 +19,6 @@ export function Tarefas({ tarefas, mudarStatusTarefa, removerTarefa }) {
             );
           })}
       </ul>
-    </section>
+    </S.TarefasContainer>
   );
 }
