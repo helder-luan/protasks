@@ -1,8 +1,8 @@
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
-import { TemaContextProvider } from './contexts/TemaContext';
 import { Main } from './components/Main';
 import { GlobalStyles } from './theme/GlobalStyles';
+import { TemaContextProvider } from './contexts/TemaContextProvider';
 
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
         <GlobalStyles />
         <Header />
         <Main />
+        <Footer />
       </TemaContextProvider>
-      <Footer />
     </>
   );
 }

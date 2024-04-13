@@ -23,10 +23,10 @@ export function Form({ tarefas, adicionarTarefa }) {
   }
 
   return (
-    <S.Container className="container">
+    <S.Container>
       <h2>Adicionar tarefa</h2>
 
-      <S.FormTarefa onSubmit={handleFormSubmit} className="form">
+      <S.FormTarefa onSubmit={handleFormSubmit}>
         <input ref={inputTarefas} type="text" placeholder="Digite a tarefa" />
         <button type="submit">
           <IoMdAdd size={24} />

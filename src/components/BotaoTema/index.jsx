@@ -8,7 +8,7 @@ export function BotaoTema() {
   const { tema, toggleTema } = useContext(TemaContext);
 
   return (
-    <S.BotaoTema className="botao-tema" onClick={toggleTema}>
+    <S.BotaoTema onClick={toggleTema}>
       {tema.name === 'light' && <MdOutlineDarkMode size={32} />}
       {tema.name === 'dark' && <MdOutlineLightMode size={32} />}
     </S.BotaoTema>

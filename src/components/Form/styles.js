@@ -44,13 +44,13 @@ export const FormTarefa = styled.form`
     width: 10rem;
     cursor: pointer;
     transition: 0.2s;
-  }
 
-  button:hover {
-    filter: brightness(0.9);
-  }
+    &:hover {
+      filter: brightness(0.9);
+    }
 
-  button:active {
-    filter: brightness(1.1);
+    &:active {
+      filter: brightness(1.1);
+    }
   }
 `;

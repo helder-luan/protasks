@@ -9,17 +9,18 @@ export const Cabecalho = styled.header`
   background: ${({ theme }) => theme.header.backgroundColor};
   grid-area: header;
   position: relative;
+`;
 
-  .logo {
-    width: 50px;
-    height: 50px;
-  }
+export const Logo = styled.img`
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+`;
 
-  .titulo {
-    color: ${({ theme }) => theme.colors.lightPurple};
-  }
+export const Titulo = styled.h1`
+  color: ${({ theme }) => theme.colors.lightPurple};
+`;
 
-  .subtitulo {
-    color: ${({ theme }) => theme.header.subtitle};
-  }
+export const Subtitulo = styled.h4`
+  color: ${({ theme }) => theme.header.subtitle};
 `;

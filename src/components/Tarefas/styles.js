@@ -8,3 +8,7 @@ export const TarefasContainer = styled.section`
     list-style: none;
   }
 `;
+
+export const SemTarefas = styled.p`
+  color: ${({ theme }) => theme.contrast};
+`;
