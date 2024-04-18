@@ -24,7 +24,7 @@ export const FormTarefa = styled.form`
   }
 
   input {
-    background: ${({ theme }) => theme.formTarefa.input.inputBackground};
+    background: ${({ theme }) => theme.formTarefa.input.backgroundColor};
     border: 1px solid ${({ theme }) => theme.formTarefa.input.borderColor};
     color: ${({ theme }) => theme.formTarefa.input.color};
     border-radius: 0.25rem 0 0 0.25rem;
@@ -37,7 +37,7 @@ export const FormTarefa = styled.form`
   button {
     border: 1px solid transparent;
     border-radius: 0 0.25rem 0.25rem 0;
-    background: ${({ theme }) => theme.colors.lightPurple};
+    background: ${({ theme }) => theme.colors.purple.medium};
     color: ${({ theme }) => theme.colors.white};
     font-size: 1rem;
     font-weight: bold;

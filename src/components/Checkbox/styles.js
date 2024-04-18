@@ -26,9 +26,9 @@ export const StyledCheckbox = styled.div`
   width: 20px;
   height: 20px;
   background: ${(props) =>
-    props.checked ? props.theme.colors.lightPurple : 'transparent'};
+    props.checked ? props.theme.colors.purple.medium : 'transparent'};
   border-radius: 3px;
-  border: 2px solid ${({ theme }) => theme.colors.lightPurple};
+  border: 2px solid ${({ theme }) => theme.colors.purple.medium};
   transition: all 0.2s;
 
   ${Icon} {

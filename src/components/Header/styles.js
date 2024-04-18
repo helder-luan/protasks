@@ -18,7 +18,7 @@ export const Logo = styled.img`
 `;
 
 export const Titulo = styled.h1`
-  color: ${({ theme }) => theme.colors.lightPurple};
+  color: ${({ theme }) => theme.colors.purple.medium};
 `;
 
 export const Subtitulo = styled.h4`

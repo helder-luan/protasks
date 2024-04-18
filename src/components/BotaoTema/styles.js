@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const BotaoTema = styled.button`
-  background-color: ${({ theme }) => theme.colors.lightPurple};
+  background-color: ${({ theme }) => theme.colors.purple.medium};
   border: 0;
   border-radius: 5px;
   cursor: pointer;
